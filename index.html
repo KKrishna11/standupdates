@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Organisers | Tivotal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--swiper css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header class="header">
+      <a href="#" class="logo"><span>Standup</span>Dates❤️</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#service">Comedians</a>
+        <a href="#about">Event</a>
+        <a href="#gallery">Videos</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>ADNAN Khatri</h3>
+      </div>
+      <div>
+        <div class="carousel">
+          <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="./images/realone.png" />
+              </div>
+              <div class="carousel-controls">
+                <label for="img-3" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-2" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="./images/one.png" />
+              </div>
+              <div class="carousel-controls">
+                <label for="img-1" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-3" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-3" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="./images/last.png" />
+              </div>
+              <div class="carousel-controls">
+                <label for="img-2" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-1" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <div class="carousel-dots">
+              <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+              <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+              <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section starts  -->
+    <h1 class="heading"><span>Creator's</span> Standup</h1>
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap">
+        <div class="lg:w-2/3 mx-auto">
+          <div class="flex flex-wrap w-fit bg-gray-100 relative mb-4">
+            <div class="text-center relative z-10 w-full">
+              <iframe
+                width="840"
+                height="400"
+                src="https://www.youtube.com/embed/CgqjlKbW4ek?si=yKZKjELUleGPMINK"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx">
+            <div class="w-1/2">
+              <div class="flex flex-wrap w-full bg-gray-100 relative">
+                <iframe
+                  width="660"
+                  height="315"
+                  src="https://www.youtube.com/embed/52QVQQqFU9I?si=2Mw4w6w913RTh7wl"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="px-1 w-1/2">
+              <div class="flex flex-wrap w-full bg-gray-100 relative">
+                <iframe
+                  width="660"
+                  height="315"
+                  src="https://www.youtube.com/embed/hk3SuI9nMI4?si=XcAGMYkBTB9DDUlt"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>your occasion deserves our careful planning</h3>
+          <p>
+            StandUpdates is a website that aims to be the go-to resource for
+            stand-up comedy fans. It also ensures that its supporters are
+            informed about all the most popular events happening in their city
+            and has a collection of popular videos so you don't have to search
+            through YouTube to find what you want to watch.
+          </p>
+          <a href="#" class="btn">reach us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section starts  -->
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+          <div class="sm:w-1/2 mb-10 px-4">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/wy9IYJxne0E?si=8BEW1hZScxNHfBNC"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <button
+              class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"
+            >
+              Watch More...
+            </button>
+          </div>
+          <div class="sm:w-1/2 mb-10 px-4">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/UMUbAvDYh9k?si=nozyo0DGkThgfNUv"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <button
+              class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"
+            >
+              Watch More...
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-white-400">
+      <div class="container px-5 py-24 mx-auto flex flex-wrap text-3xl  ">
+        <div
+          class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10"
+        >
+          <div class="w-full sm:p-4 px-4 mb-6">
+            <h1 class="title-font  text-white-500     font-medium text-xl mb-2 text-gray-900">
+              Moon hashtag pop-up try-hard offal truffaut
+            </h1>
+            <div class="leading-relaxed">
+              Pour-over craft beer pug drinking vinegar live-edge gastropub,
+              keytar neutra sustainable fingerstache kickstarter.
+            </div>
+          </div>
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-white-900">2.7K</h2>
+            <p class="leading-relaxed">Users</p>
+          </div>
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+            <p class="leading-relaxed">Subscribes</p>
+          </div>
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-gray-900">35</h2>
+            <p class="leading-relaxed">Downloads</p>
+          </div>
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-gray-900">4</h2>
+            <p class="leading-relaxed">Products</p>
+          </div>
+        </div>
+        <div
+          class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0"
+        >
+          <img
+            class="object-cover object-center w-full h-full"
+            src="https://mediaindia.eu/wp-content/uploads/2020/03/CLCD-810x316-1.jpg"
+            alt="stats"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>FEED</span>BACK</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+        </div>
+        <div class="inputBox">
+          <input type="tel" placeholder="number" />
+          <input type="text" placeholder="subject" />
+        </div>
+        <textarea
+          name=""
+          placeholder="message"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>branches</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> bangalore </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> kolkata </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> chennai </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> kanasu@gmail.com </a>
+          <a href="#"> <i class="fas fa-envelope"></i> kanasuind@gmail.com </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> bangalore, india - 560054
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>Tivotal</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- theme toggler  -->
+    <div class="theme-toggler">
+      <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <h3>choose color</h3>
+
+      <div class="buttons">
+        <div class="theme-btn" style="background: #ccff33"></div>
+        <div class="theme-btn" style="background: #d35400"></div>
+        <div class="theme-btn" style="background: #f39c12"></div>
+        <div class="theme-btn" style="background: #1abc9c"></div>
+        <div class="theme-btn" style="background: #3498db"></div>
+        <div class="theme-btn" style="background: #9b59b6"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--JS file-->
+    <script src="app.js"></script>
+  </body>
+</html>
